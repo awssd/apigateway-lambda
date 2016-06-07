@@ -1,6 +1,6 @@
 {
   "name": "Apigateway-lambda",
   "tagline": "",
-  "body": "1. Install Slack\r\n1. Join the 'sdawsmagicnight' Slack channel\r\n1. Create a GitHub Web Hook for Pull Requests using API Gateway and Lambda.\r\n    1. https://developer.github.com/webhooks/creating/\r\n1. Send a message to the Slack Channel when a PR has been ***opened***.\r\n    1. Include Team Name\r\n    1. Use a unique Team Icon.\r\n1. Create a Slack Command to close the open PR using API Gateway and Lambda (Bonus)",
+  "body": "1. Install Slack\r\n1. Join the 'sdawsmagicnight' Slack channel\r\n1. Create a GitHub Web Hook for Pull Requests using API Gateway and Lambda.\r\n    1. https://developer.github.com/webhooks/creating/\r\n1. Send a message to the Slack Channel when a PR has been changed.\r\n    1. Us Team Name (Ex: \"Team 13\")\r\n    1. Use a unique Team Icon.\r\n    1. Summarize the pull request\r\n    1. Message should contain a link to\r\n        * User\r\n        * Pull Request\r\n        * Repository\r\n1. Create a Slack Command to close, merge or reopen a Pull Request using API Gateway and Lambda (Bonus)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
